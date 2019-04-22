@@ -19,4 +19,12 @@ func main(){
 	fmt.Printf("Multiplicação dos numeros: %d * %d = %d \n", numero1, numero2, numero1*numero2)
 	fmt.Printf("Divisão dos numeros: %d / %d = %d \n", numero1, numero2, numero1/numero2)
 	fmt.Printf("Tipo dos numeros: %d %% %d = %d \n", numero1, numero2, numero1%numero2)
+
+	incremento := numero1
+	incremento += numero2
+	fmt.Printf("O incremento de %d com %d é %d \n", numero1, numero2, incremento)
+
+	decremento := numero1
+	decremento -= numero2
+	fmt.Printf("O decremento de %d com %d é %d \n", numero1, numero2, decremento)
 }
